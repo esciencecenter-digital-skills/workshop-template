@@ -90,37 +90,6 @@ Read correct lesson meta from esciencecenter-digital-skills/workshop-metadata
 Check DC curriculum
 {% endcomment %}
 
-{% if info.carpentry == "dc" %}
-{% unless info.curriculum == "dc-astronomy" or info.curriculum == "dc-ecology" or info.curriculum == "dc-genomics" or info.curriculum == "dc-socsci" or info.curriculum == "dc-image-processing" %}
-<div class="alert alert-warning">
-It looks like you are setting up a website for a Data Carpentry curriculum but you haven't specified the curriculum type in the <code>_data/data.csv</code> file (current value in <code>_data/data.csv</code>: "<strong>{{ info.curriculum }}</strong>", possible values: <code>dc-astronomy</code>, <code>dc-ecology</code>, <code>dc-genomics</code>, <code>dc-socsci</code>, or <code>dc-geospatial</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
-</div>
-{% endunless %}
-{% endif %}
-{% comment %}
-Check SWC curriculum
-{% endcomment %}
-
-{% if info.carpentry == "swc" %}
-{% unless info.curriculum == "swc-inflammation" or info.curriculum == "swc-gapminder" %}
-<div class="alert alert-warning">
-It looks like you are setting up a website for a Software Carpentry curriculum but you haven't specified the curriculum type in the <code>_data/data.csv</code> file (current value in <code>_data/data.csv</code>: "<strong>{{ info.curriculum }}</strong>", possible values: <code>swc-inflammation</code>, or <code>swc-gapminder</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
-</div>
-{% endunless %}
-{% endif %}
-
-{% comment %}
-Check DS curriculum
-{% endcomment %}
-
-{% if info.carpentry == "ds" %}
-{% unless info.curriculum == "ds-cr" or info.curriculum == "ds-docker" or info.curriculum == "ds-dl-intro" or info.curriculum == "ds-gpu" or info.curriculum == "ds-parallel" or info.curriculum == "ds-rpackaging" or info.curriculum == "ds-geospatial"%}
-<div class="alert alert-warning">
-It looks like you are setting up a website for a Digital Skills curriculum but you haven't specified the curriculum type in the <code>_data/data.csv</code> file (current value in <code>_data/data.csv</code>: "<strong>{{ info.curriculum }}</strong>", possible values: <code>ds-cr</code>, <code>ds-docker</code>, <code>ds-dl-intro</code>, <code>ds-gpu</code>, <code>ds-parallel</code> or <code>ds-rpackaging</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
-</div>
-{% endunless %}
-{% endif %}
-
 {% comment %}
 EVENTBRITE
 
