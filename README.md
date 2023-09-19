@@ -11,21 +11,23 @@ please [submit an issue][issues] or [mail us][email].
 
 ## Use this template
 
-1. **Please _do not fork this repository directly on GitHub._** Instead,
+1. Before you start to build the website, check if the data.csv file is complete (data.csv file in the Instructors Sharepoint - folder for your specific workshop).
+
+2.  **Please _do not fork this repository directly on GitHub._** Instead,
    use GitHub's function to copy this template repository and customize it for
    your workshop. On this page
    (<https://github.com/esciencecenter-digital-skills/workshop-template>),
    click on the green `Use this template` button (top right).
 
-2.  Select the owner for your new repository. This should be
+3.  Select the owner for your new repository. This should be
     `esciencecenter-digital-skills` GitHub organisation.
 
-3.  Choose a name for your workshop website repository. This name should have
+4.  Choose a name for your workshop website repository. This name should have
     the form `YYYY-MM-DD-carpentry-curriculum`, e.g., `2016-12-01-ds-gpu`, where
     `YYYY-MM-DD` is the start date of the workshop, `ds` stands for Digital
     Skills, and `gpu` is the workshop name in this example.
 
-4.  Make sure the repository is public, leave "Include all branches" unchecked 
+5.  Make sure the repository is public, leave "Include all branches" unchecked 
     (don't worry about the `gh-pages` branch, it will be created by a github action).
     Click on "Create repository from template". You will be redirected to
     your new copy of the workshop template repository.
