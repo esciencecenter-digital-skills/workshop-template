@@ -21,7 +21,7 @@ Collaborative Document day 3: [link](<url>)
 
 Collaborative Document day 4: [link](<url>) 
 
-## 👮Code of Conduct
+##  🫱🏽‍🫲🏻 Code of Conduct
 
 * Participants are expected to follow those guidelines:
 * Use welcoming and inclusive language
