@@ -60,7 +60,7 @@ filled with the lesson information and can be found in the SharePoint folder bel
 
 ## eventbrite.json
 
-This file contains `eventbrite` code i.e. alphanumeric key for Eventbrite registration.
+This file contains `eventbrite` code i.e. alphanumeric key for Eventbrite registration. The URL to the Eventbrite registration page is usually in the links on top of the Planning Document. It looks like this: https://www.eventbrite.nl/e/good-practices-in-research-software-development-tickets-765240042567 The last ~12 characters are the eventbrite code that you should put in `eventbrite.json`.
 
 > Note: `eventbrite.json` file should be edited by hand. Write the code
 > including double quotes e.g., "1234567890AB".
