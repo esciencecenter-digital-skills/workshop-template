@@ -82,7 +82,8 @@ Name/ pronouns (optional) / job, role / social media (twitter, github, ...) / ba
 * **Wifi**: Eduroam should work. Otherwise use the 'matrixbuilding' network, password should be printed out and available somewhere in the room.
 
 ## 🎓 Certificate of attendance
-If you attend the full workshop you can request a certificate of attendance by emailing to training@esciencecenter.nl .
+If you attend the full workshop you can request a certificate of attendance by emailing to training@esciencecenter.nl.
+Please request your certificate within 8 months after the workshop, as we will delete all personal identifyable information after this period.
 
 ## 🔧 Exercises
 
