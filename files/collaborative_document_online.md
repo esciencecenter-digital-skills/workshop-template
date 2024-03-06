@@ -32,7 +32,8 @@ Participants are expected to follow these guidelines:
  
 ## 🎓 Certificate of attendance
 
-If you attend the full workshop you can request a certificate of attendance by emailing to training@esciencecenter.nl .
+If you attend the full workshop you can request a certificate of attendance by emailing to training@esciencecenter.nl.
+Please request your certificate within 8 months after the workshop, as we will delete all personal identifyable information after this period.
 
 ## ⚖️ License
 
