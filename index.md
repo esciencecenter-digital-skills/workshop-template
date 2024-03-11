@@ -252,6 +252,11 @@ special instructions.
 </p>
 {% endif %}
 
+<p id="files">
+  <strong>Workshop files:</strong>
+  You will find all slides, notebooks, archived collaborative documents, and other relevant files in the [files](/files) folder of the workshop website repository after the workshop.
+</p>
+
 {% comment %}
 CONTACT EMAIL ADDRESS
 
