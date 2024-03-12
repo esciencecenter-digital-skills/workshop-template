@@ -254,7 +254,7 @@ special instructions.
 
 <p id="files">
   <strong>Workshop files:</strong>
-  You will find all slides, notebooks, archived collaborative documents, and other relevant files in the [files](/files) folder of the workshop website repository after the workshop.
+  You will find all slides, notebooks, archived collaborative documents, and other relevant files in the <a href="https://github.com/esciencecenter-digital-skills/{{ info.slug }}/tree/main/files">files</a> folder of the workshop website repository after the workshop.
 </p>
 
 {% comment %}
