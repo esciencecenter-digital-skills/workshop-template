@@ -11,15 +11,16 @@ This Document is synchronized as you type, so that everyone viewing this page se
 
 ----------------------------------------------------------------------------
 
-This is the Document for today: [link](<url>)
 
-Collaborative Document day 1: [link](<url>)
+This is the Document for today: https://edu.nl/XXXX
 
-Collaborative Document day 2: [link](<url>)
+Collaborative Document day 1: https://edu.nl/XXXX
 
-Collaborative Document day 3: [link](<url>)
+Collaborative Document day 2: https://edu.nl/XXXX
 
-Collaborative Document day 4: [link](<url>) 
+Collaborative Document day 3: https://edu.nl/XXXX
+
+Collaborative Document day 4: https://edu.nl/XXXX
 
 ##  🫱🏽‍🫲🏻 Code of Conduct
 
