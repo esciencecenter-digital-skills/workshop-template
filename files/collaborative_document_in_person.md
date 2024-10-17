@@ -18,9 +18,6 @@ Collaborative Document day 1: https://edu.nl/XXXX
 
 Collaborative Document day 2: https://edu.nl/XXXX
 
-Collaborative Document day 3: https://edu.nl/XXXX
-
-Collaborative Document day 4: https://edu.nl/XXXX
 
 ##  🫱🏽‍🫲🏻 Code of Conduct
 
