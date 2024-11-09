@@ -101,13 +101,19 @@ displayed if the 'eventbrite' field in the header is not set.
 {% if eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="400px"
-  scrolling="auto">
-</iframe>
+
+<div id="eventbrite-widget-container"></div>
+
+<script src="https://www.eventbrite.nl/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: {{eventbrite}},
+        iframeContainerId: 'eventbrite-widget-container',
+    });
+</script>
 {% endif %}
 
 
