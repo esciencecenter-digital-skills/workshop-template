@@ -78,9 +78,8 @@ please [submit an issue][issues] or [mail us][email].
       Find where the default workshop metadata markdown file that you want to replace is included.
       For example: the schedule.md file is included [here](https://github.com/esciencecenter-digital-skills/workshop-template/blob/main/index.md#schedule)
       Instead of the default file, point to your new file (i.e. `schedule-in-person.md`).
-  4. Once you commit this, the github action will rebuild the workshop website. 
-     The `index.md` file will point to the alternative workshop metadata markdown file,
-     so that will be included in the workshop website.
+4. Once your changes are commited and pushed, make a new `Release` through the Github web interface.
+   This will trigger the deployment job to rebuild the workshop website.
 
 5. There is a `collaborative_document.md` in the `files` directory of this
    repository. You can use it as a template to create a collaborative document
