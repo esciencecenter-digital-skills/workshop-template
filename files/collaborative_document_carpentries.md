@@ -30,7 +30,7 @@ Collaborative Document day 4: [link](<url>)
 * Focus on what is best for the community
 * Show courtesy and respect towards other community members
 
-For more details, see [here](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html).
+For more details, see [here](https://docs.carpentries.org/policies/coc/).
 
 Want to report a Code of Conduct incident and you prefer to do it anonymously? You can do it [here](https://goo.gl/forms/KoUfO53Za3apOuOK2).
 
