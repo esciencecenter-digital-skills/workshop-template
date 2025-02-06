@@ -29,6 +29,8 @@ Participants are expected to follow these guidelines:
 * Gracefully accept constructive criticism.
 * Focus on what is best for the community.
 * Show courtesy and respect towards other community members.
+
+ If you feel that the code of conduct is breached, please talk to one of the instructors (if the complaint is for one of the participants) or send an email to training@esciencecenter.nl (if the complaint is for one of the instructors).
  
 ## 🎓 Certificate of attendance
 
