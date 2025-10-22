@@ -28,7 +28,7 @@ please [submit an issue][issues] or [mail us][email].
     Skills, and `gpu` is the workshop name in this example.
 
 5.  Make sure the repository is public, leave "Include all branches" unchecked 
-    (don't worry about the `gh-pages` branch, it will be created by a github action).
+    (don't worry about the `gh-pages` branch, it will not be needed).
     Click on "Create repository from template". You will be redirected to
     your new copy of the workshop template repository.
 
@@ -42,13 +42,12 @@ please [submit an issue][issues] or [mail us][email].
    `https://esciencecenter-digital-skills.github.io/2021-11-02-ds-gpu/`.
    Please note that the github action that builds the website can take a few minutes to complete!
 
-7. Click on "Settings" tab. In the left sidebar, click on "Pages". Under "GitHub Pages", use the
-    _gh-pages_ branch from drop-down menu and press "save". For more information,
-    see [GitHub
+7. Click on "Settings" tab. In the left sidebar, click on "Pages". Under "Build and deployment",
+   select "GitHub Actions" from the "Source" menu. For more information, see [GitHub
     documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 7. Please do your work in the repository's `main` branch. A GitHub action is
-   used for deployment that creates a `gh-pages` branch. See
+   used for deployment of the website. See
    [building a Jekyll site using a GitHub Action][github-project-pages] for more information.
 
 8. To trigger deployment of a new version of the website, [create a new release of your repository][create-release]
