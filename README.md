@@ -101,12 +101,24 @@ Then, you can preview your site locally with:
 make serve
 ```
 
-and go to <http://0.0.0.0:4000> to preview your site. Alternatively, if you'd like to run Jekyll
+and go to <http://0.0.0.0:4000> to preview your site.
+
+### Docker
+Alternatively, if you'd like to run Jekyll
 inside a Docker container, you may run
 
 ```shell
 make docker-serve
 ```
+
+### (Fedora) GNU Linux and Podman
+In case you are running on Linux, it may be easier to run the container with Podman:
+
+```shell
+podman run --userns=keep-id -it --network host -v $PWD:/srv/jekyll:z jekyll/jekyll:4 make serve
+```
+
+Here, the `:z` suffix to the volume mount circumvents possible restrictions from SELinux, and the `--network host` replaces the more traditional `-p 4000:4000`.
 
 ## Creating Extra Pages
 
