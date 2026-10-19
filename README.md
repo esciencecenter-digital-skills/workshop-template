@@ -11,46 +11,44 @@ please [submit an issue][issues] or [mail us][email].
 
 ## Use this template
 
-1. Before you start to build the website, check if the data.csv file is complete (data.csv file in the Instructors Sharepoint - folder for your specific workshop).
+1. Before you start to build the website, check if the data.csv file is complete
+   (data.csv file in the Instructors Sharepoint - folder for your specific workshop).
 
-2.  **Please _do not fork this repository directly on GitHub._** Instead,
+2. **Please _do not fork this repository directly on GitHub._** Instead,
    use GitHub's function to copy this template repository and customize it for
    your workshop. On this page
    (<https://github.com/esciencecenter-digital-skills/workshop-template>),
    click on the green `Use this template` button (top right).
 
-3.  Select the owner for your new repository. This should be
-    `esciencecenter-digital-skills` GitHub organisation.
+3. Select the owner for your new repository. This should be
+   `esciencecenter-digital-skills` GitHub organisation.
 
-4.  Choose a name for your workshop website repository. This name should have
-    the form `YYYY-MM-DD-carpentry-curriculum`, e.g., `2016-12-01-ds-gpu`, where
-    `YYYY-MM-DD` is the start date of the workshop, `ds` stands for Digital
-    Skills, and `gpu` is the workshop name in this example.
+4. Choose a name for your workshop website repository. This name should have
+   the form `YYYY-MM-DD-carpentry-curriculum`, e.g., `2016-12-01-ds-gpu`, where
+   `YYYY-MM-DD` is the start date of the workshop, `ds` stands for Digital
+   Skills, and `gpu` is the workshop name in this example.
 
-5.  Make sure the repository is public, leave "Include all branches" unchecked 
-    (don't worry about the `gh-pages` branch, it will not be needed).
-    Click on "Create repository from template". You will be redirected to
-    your new copy of the workshop template repository.
+5. Make sure the repository is public, leave "Include all branches" unchecked.
+   Click on "Create repository from template". You will be redirected to
+   your new copy of the workshop template repository.
 
-4.  Go to the the workshop repository that is just created. 
-    Manually run the 'Build and deploy Jekyll site to GitHub Pages' github action.
-    See instructions for manually triggering workflows [here][manually-run-workflow]
+6. Go to the the workshop repository that is just created. Click on "Settings"
+   tab. In the left sidebar, click on "Pages". Under "Build and deployment",
+   select "GitHub Actions" from the "Source" menu. For more information, see [GitHub
+   documentation][configure-publishing].
 
-6. Your new website will be rendered at
+7. Next, go to the Actions tab of the repository and manually run the 'Build
+   and deploy Jekyll site to GitHub Pages' github action. Select the `main`
+   branch to run the workflow from. See instructions for manually triggering
+   workflows [here][manually-run-workflow].
+
+8. Your new website will be rendered at
    `https://owner_name.github.io/YYYY-MM-DD-type-curriculum`. For example, if
    `esciencecenter-digital-skills` is the owner, the workshop's URL will be
    `https://esciencecenter-digital-skills.github.io/2021-11-02-ds-gpu/`.
    Please note that the github action that builds the website can take a few minutes to complete!
 
-7. Click on "Settings" tab. In the left sidebar, click on "Pages". Under "Build and deployment",
-   select "GitHub Actions" from the "Source" menu. For more information, see [GitHub
-    documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-
-7. Please do your work in the repository's `main` branch. A GitHub action is
-   used for deployment of the website. See
-   [building a Jekyll site using a GitHub Action][github-project-pages] for more information.
-
-8. To trigger deployment of a new version of the website, [create a new release of your repository][create-release]
+9. To trigger deployment of a new version of the website, [create a new release of your repository][create-release]
 
 ## Required information and customizing your workshop page
 
@@ -61,26 +59,26 @@ please [submit an issue][issues] or [mail us][email].
    the [documention](./_data/README.md).
 
 3. Additional lesson information lives in a folder in [workshop metadata
-   repository](https://github.com/esciencecenter-digital-skills/workshop-metadata).
-   See the
+   repository][workshop-metadata]. See the
    [documention](https://github.com/esciencecenter-digital-skills/workshop-metadata#readme).
 
 4. In some cases you want to deviate from the default lesson information (also known as 'workshop metadata').
    The steps are as follows:
    1. In the corresponding folder in the [workshop metadata
-       repository](https://github.com/esciencecenter-digital-skills/workshop-metadata)
+       repository][workshop-metadata]
        add a new file. Give it a suitable name.
-       For example, if you want a different schedule for your workshop create 
+       For example, if you want a different schedule for your workshop create
        a new file called `schedule-2.md` or `schedule-in-person.md`.
    2. Add the desired workshop information to the file and commit to the `main` branch.
-   3. In the workshop repository edit the `index.md` file. 
+   3. In the workshop repository edit the `index.md` file.
       Find where the default workshop metadata markdown file that you want to replace is included.
       For example: the schedule.md file is included [here](https://github.com/esciencecenter-digital-skills/workshop-template/blob/main/index.md#schedule)
       Instead of the default file, point to your new file (i.e. `schedule-in-person.md`).
-4. Once your changes are commited and pushed, make a new `Release` through the Github web interface.
+
+5. Once your changes are commited and pushed, make a new `Release` through the Github web interface.
    This will trigger the deployment job to rebuild the workshop website.
 
-5. There is a `collaborative_document.md` in the `files` directory of this
+6. There is a `collaborative_document.md` in the `files` directory of this
    repository. You can use it as a template to create a collaborative document
    on [hackmd](https://hackmd.io/). Please note that you need to sign in.
 
@@ -92,7 +90,7 @@ repository. Otherwise, you can edit files using the GitHub web interface.
 
 If you want to set up Jekyll so that you can preview changes on your own machine
 before pushing them to GitHub, you must install the software described in the
-lesson example 
+lesson example
 [setup instructions][setup-instructions].
 Then, you can preview your site locally with:
 
@@ -127,18 +125,6 @@ You can do this by putting either Markdown or HTML pages in the website's root d
 and styling them according to the instructions given in
 [the lesson template][lesson-example].
 
-[create-release]: https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release
-[email]: mailto:training@esciencecenter.nl
-[dc-site]: https://datacarpentry.org
-[github-project-pages]: https://jekyllrb.com/docs/continuous-integration/github-actions/
-[issues]: https://github.com/esciencecenter-digital-skills/next-workshop-template/issues
-[lesson-example]: https://carpentries.github.io/lesson-example/
-[manually-run-workflow]: https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow#running-a-workflow
-[swc-site]: https://software-carpentry.org
-[lc-site]: https://librarycarpentry.org
-[ds-site]: https://esciencecenter-digital-skills.github.io/
-[setup-instructions]: https://carpentries.github.io/lesson-example/setup.html#jekyll-setup-for-lesson-development
-
 ## Troubleshooting
 
 ### Understanding how the workshop metadata is retrieved
@@ -150,3 +136,24 @@ When something goes wrong it can help to understand how this workshop template l
 
 ### My commits do not trigger a new build github pages action, help!
 This is on purpose. We only trigger a new build upon creating a new release.
+
+
+<!-- References -->
+
+[email]:                   mailto:training@esciencecenter.nl
+
+[dc-site]:                 https://datacarpentry.org
+[swc-site]:                https://software-carpentry.org
+[lc-site]:                 https://librarycarpentry.org
+[ds-site]:                 https://esciencecenter-digital-skills.github.io/
+
+[issues]:                  https://github.com/esciencecenter-digital-skills/workshop-template/issues
+[workshop-metadata]:       https://github.com/esciencecenter-digital-skills/workshop-metadata
+
+[github-project-pages]:    https://jekyllrb.com/docs/continuous-integration/github-actions/
+[lesson-example]:          https://carpentries.github.io/lesson-example/
+[setup-instructions]:      https://carpentries.github.io/lesson-example/setup.html#jekyll-setup-for-lesson-development
+
+[manually-run-workflow]:   https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow#running-a-workflow
+[create-release]:          https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release
+[configure-publishing]:    https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
